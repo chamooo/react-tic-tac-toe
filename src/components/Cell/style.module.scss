@@ -1,0 +1,15 @@
+.cell {
+    border: 1px solid #929292;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    &:hover {
+        background: rgba($color: #fff, $alpha: .06);
+    }
+    &:active {
+        background: rgba($color: #fff, $alpha: .1);
+    }
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

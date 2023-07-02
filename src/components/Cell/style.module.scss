@@ -3,13 +3,24 @@
     cursor: pointer;
     transition: all 0.2s ease 0s;
     &:hover {
-        background: rgba($color: #fff, $alpha: .06);
+        background: rgba($color: #fff, $alpha: 0.06);
     }
     &:active {
-        background: rgba($color: #fff, $alpha: .1);
+        background: rgba($color: #fff, $alpha: 0.1);
     }
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.role {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
 }
